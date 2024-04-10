@@ -68,8 +68,9 @@ nav {
 }
 
 .buttonNuovo{
+    margin-top: 20px;
     height: 30px;
-    width: 120px;
+    width: 135px;
     border: 1px solid grey;
     display: flex;
     justify-content: center;
@@ -125,4 +126,39 @@ nav {
 .sottoFoto{
     font-size: small;
     margin-bottom: .1rem;
+}
+
+#firstContainer{
+    margin-bottom: 9rem;
+}
+
+/*FOOTER*/
+
+.destination-section {
+    display: flex;
+    margin-top: 15px;
+}
+
+.sezioni div {
+    margin-left: 10px;
+    }
+
+.sezioni h6 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    border-top: 1px solid rgb(212, 211, 211);
+}
+
+.footer-info {
+    margin-left: 4.4rem;
+}
+
+.copy {
+    padding-left: 4.8rem;
 }

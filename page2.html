@@ -28,8 +28,16 @@
         <div class="userHost">
           <span>Become a host</span>
           <i class="bi bi-globe2 mx-4"></i>
-          <i class="bi bi-list"></i>
-          <i class="bi bi-person-circle mx-1"></i>
+          <div class="dropdown">
+            <span type="button" data-bs-toggle="dropdown">
+              <i class="bi bi-list fs-4"></i> <i class="bi bi-person-circle fs-4"></i>
+            </span>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item" href="#">Registrati</a></li>
+              <li><a class="dropdown-item" href="#">Accedi</a></li>
+              <li><a class="dropdown-item" href="#">Centro assistenza</a></li>
+            </ul>
+          </div>
         </div>
         
        </div>
@@ -52,12 +60,12 @@
       <!--------BUTTONI ------>
      <div class="buttonMain">
       
-      <div class="buttonNuovo">small button</div>
-      <div class="buttonNuovo">small button</div>
-      <div class="buttonNuovo">button</div>
+      <div class="buttonNuovo">Available houses</div>
+      <div class="buttonNuovo">Booked houses</div>
+      <div class="buttonNuovo">all houses</div>
      </div>
      
-    <!------------------ altri due pan-->
+    <!------------------ altri due span-->
 
      <div class="enterDt">
       <span> Enter dates and numberof guests to see the total price per night</span>
@@ -70,13 +78,13 @@
 
       <!--------------MAIN APPARTAMENTI-->
 
-      <div class="container-fluid  ">
+      <div id="firstContainer" class="container-fluid mb-5  ">
         <div class="row appartements overflow-hidden flex-md-nowrap d-flex justify-content-center " >
 
           <div class="col col-md-4 col-lg-2   ">
             <div>
             <img src="Assest/1.webp" alt="foto appartment" >
-            <span class="strisco"> * </span> <span class="numeri"> 2.75 </span> <span>rating</span>
+            <span class="strisco"> * </span> <span class="numeri"> 2.75 </span> <span>.4 rating</span>
             <h6 class="sottoFoto">Apartement. Genova</h6>
             <h6 class="sottoFoto">The windy house</h6>
             
@@ -84,40 +92,140 @@
           </div>
           <div class="col col-md-4 col-lg-2   ">
             <div>
-            <img src="Assest/2.webp" alt="foto appartment" >
-            <span class="strisco"> * </span> <span class="numeri"> 2.75 </span> <span>.4 rating</span>
+            <img src="assest/2.webp" alt=" foto appartment" >
+            <span class="strisco"> * </span><span>0 rating</span>
             <h6 class="sottoFoto">Apartement. Genova</h6>
-            <h6 class="sottoFoto">The windy house</h6>
+            <h6 class="sottoFoto">Wonderful house</h6>
             </div> 
           </div>
           <div class="col col-md-4 col-lg-2   ">
             <div>
             <img src="Assest/3.webp" alt="foto appartment" >
-            <span class="strisco"> * </span> <span class="numeri"> 2.75 </span> <span>.4 rating</span>
+            <span class="strisco"> * </span> <span>0 rating</span>
             <h6 class="sottoFoto">Apartement. Genova</h6>
-            <h6 class="sottoFoto">The windy house</h6>
+            <h6 class="sottoFoto">The time travel</h6>
             </div> 
           </div>
           <div class="col col-md-4 col-lg-2   ">
             <div>
             <img src="Assest/4.webp" alt="foto appartment" >
-            <span class="strisco"> * </span> <span class="numeri"> 2.75 </span> <span>.4 rating</span>
+            <span class="strisco"> * </span> <span>0 rating</span>
             <h6 class="sottoFoto">Apartement. Genova</h6>
-            <h6 class="sottoFoto">The windy house</h6>
+            <h6 class="sottoFoto">S.Olecese house</h6>
             </div> 
           </div>
           <div class="col col-md-4 col-lg-2   ">
             <div>
             <img src="Assest/5.webp" alt="foto appartment" >
+            <span class="strisco"> * </span> <span>0 rating</span>
+            <h6 class="sottoFoto">Apartement. Genova</h6>
+            <h6 class="sottoFoto">Bassi student residence</h6>
+            </div> 
+          </div>
+      </div>
+      <!-------COPY SECOND MAIN--------->
+
+      <div class="container-fluid mt-5 ">
+        <div class="row appartements overflow-hidden flex-md-nowrap d-flex justify-content-center " >
+
+          <div class="col col-md-4 col-lg-2   ">
+            <div>
+            <img src="Assest/1.webp" alt="foto appartment" >
             <span class="strisco"> * </span> <span class="numeri"> 2.75 </span> <span>.4 rating</span>
             <h6 class="sottoFoto">Apartement. Genova</h6>
             <h6 class="sottoFoto">The windy house</h6>
+            
+            </div> 
+          </div>
+          <div class="col col-md-4 col-lg-2   ">
+            <div>
+            <img src="assest/2.webp" alt=" foto appartment" >
+            <span class="strisco"> * </span><span>0 rating</span>
+            <h6 class="sottoFoto">Apartement. Genova</h6>
+            <h6 class="sottoFoto">Wonderful house</h6>
+            </div> 
+          </div>
+          <div class="col col-md-4 col-lg-2   ">
+            <div>
+            <img src="Assest/3.webp" alt="foto appartment" >
+            <span class="strisco"> * </span> <span>0 rating</span>
+            <h6 class="sottoFoto">Apartement. Genova</h6>
+            <h6 class="sottoFoto">The time travel</h6>
+            </div> 
+          </div>
+          <div class="col col-md-4 col-lg-2   ">
+            <div>
+            <img src="Assest/4.webp" alt="foto appartment" >
+            <span class="strisco"> * </span> <span>0 rating</span>
+            <h6 class="sottoFoto">Apartement. Genova</h6>
+            <h6 class="sottoFoto">S.Olecese house</h6>
+            </div> 
+          </div>
+          <div class="col col-md-4 col-lg-2   ">
+            <div>
+            <img src="Assest/5.webp" alt="foto appartment" >
+            <span class="strisco"> * </span> <span>0 rating</span>
+            <h6 class="sottoFoto">Apartement. Genova</h6>
+            <h6 class="sottoFoto">Bassi student residence</h6>
             </div> 
           </div>
       </div>
       
 
     </main>
+
+    <!-------------------FOOTER------->
+    <footer class="pt-5">
+      <div class="row footer-info">
+        <div class="col-6 col-md-4 mb-3">
+          <h5>Assistenza</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Centro Assistenza</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">ArCover</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Antidiscriminazione</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Supporto alla disabilità</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Opzioni di cancellazione</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Segnala problema nel quartiere</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-4 mb-3">
+          <h5>Ospitare</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Apri un Airbnb</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">AirCover per gli Host</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Risorse per gli host</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Forum della community</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Ospitare responsabilmente</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Partecipa a una lezione gratuita sull'ospitalità</a></li>
+          </ul>
+        </div>
+  
+        <div class="col-6 col-md-4 mb-3">
+          <h5>Airbnb</h5>
+          <ul class="nav flex-column">
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Newsroom</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Nuove opportunità di lavoro</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Opportunità di lavoro</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Investitori</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Gift card</a></li>
+            <li class="nav-item mb-2"><a href="#" class="nav-link p-0 text-body-secondary">Soggiorni con Airbnb.org</a></li>
+          </ul>
+        </div>
+      </div>
+  
+      <div class="d-flex flex-column flex-sm-row mt-5">
+        <p class="copy">© 2024 Company, Inc. All rights reserved.</p>
+        <ul class="list-unstyled d-flex icn-social">
+          <li class="ms-3"> <i class="bi bi-globe2 mx-4"></i> </li>
+          <li> Italiano (IT)</li>
+          <li class="ms-3">€ EUR</li>
+          <li class="ms-3"><i class="bi bi-facebook"></i></li>
+          <li class="ms-3"><i class="bi bi-twitter"></i></li>
+          <li class="ms-3"><i class="bi bi-instagram"></i></li>
+        </ul>
+      </div>
+    </footer>
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
