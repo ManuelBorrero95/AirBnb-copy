@@ -4,23 +4,83 @@
     box-sizing: border-box;
 }
 
+/* NAv Prinipale*/
+
 nav {
     height: 70px;
-    padding: 15px 75px;
-    
+    padding: 15px 75px;   
 }
 .cnt {
     display: flex;
     align-items: center;
     justify-content: space-between;
-
 }
 
 .logo img{
     width: 110px;
 }
 
-.usereHost{
-    padding: 15px;
-     margin: ;
+.userHost{
+    padding: 20px;
+     margin: 5px;
+     display: flex;
+     align-items: center;    
 }
+
+/*Main*/
+
+.mainDX {
+    margin-top: 60px;
+    padding-left: 70px;
+}
+
+
+.titoloEsign{
+    display: flex;
+    align-items: center;
+    gap: 4px; 
+}
+
+.cirlceRosa{
+    height: 30px;
+    width: 30px;
+    background-color: palevioletred;
+    border-radius: 50%;
+    text-align: center;
+    align-content: center;
+    color: white;
+}
+
+/*buttoni*/
+.buttonHouses{
+    padding-left: 62px !important; 
+}
+
+.btn{
+    border-radius: 29% !important;
+    height: 37px !important;
+   
+    margin-left: 5px;
+    font-size: small;
+}
+#lastButton{
+    margin-left: 10px !important;
+    width: 50px !important;
+}
+
+/*span dopo i buttoni*/
+
+.enterDt, .covid{
+    margin-top: 60px;
+    padding-left: 70px;
+}
+
+/*carrousel*/
+
+.carousel-item.active {
+    
+    margin-top: 10px;
+    width: 120vw;
+    padding-left: 70px !important;
+    
+  }
