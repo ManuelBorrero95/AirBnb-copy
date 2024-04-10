@@ -55,7 +55,7 @@ ul li {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 50vw;
+    width: 45vw;
     height: 65px;
     margin: auto;
     background-color: white;
@@ -86,3 +86,90 @@ filter .p-2 h6 {
     margin-left: 10px;
 }
 
+.hero {
+    width: 90%;
+    height: 620px;
+    background-image: url(/assets/home.2.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    align-items: center;
+    margin-left: 70px;
+}
+
+.hero-cnt h1 {
+    font-size: 100px;
+    color: rgb(255, 255, 255);
+    line-height: 0.8;
+}
+
+.hero-cnt {
+    width: 180px;
+}
+
+.btn-hero {
+    margin-top: 20px;
+    padding: 6px 10px;
+    border-radius: 5px;
+}
+
+section {
+    background-color: white;
+    padding: 30px 0;
+}
+
+.sezioni {
+    display: flex;
+    align-items: center;
+    padding-left: 80px;
+}
+
+.img-section {
+    width: 60px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.destination-section {
+    display: flex;
+    margin-top: 15px;
+}
+
+.sezioni div {
+    margin-left: 10px;
+}
+
+.sezioni h6 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    border-top: 1px solid rgb(212, 211, 211);
+}
+
+.footer-info {
+    margin-left: 4.4rem;
+}
+
+.copy {
+    padding-left: 4.8rem;
+}
+
+
+/* media query per la visualizzazione a tutti gli schermi */
+
+
+@media screen and (max-width: 480px) {
+    .logo {
+        margin-left: 10px;
+    }
+}
+
+.icn-social {
+    margin-left: 56rem;
+    font-size: 1.1rem;
+}
