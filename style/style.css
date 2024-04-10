@@ -33,7 +33,7 @@ nav {
 
 .mainDX {
     margin-top: 60px;
-    padding-left: 70px;
+    padding-left: 80px;
 }
 
 
@@ -41,6 +41,7 @@ nav {
     display: flex;
     align-items: center;
     gap: 4px; 
+    margin-left: 80px;
 }
 
 .cirlceRosa{
@@ -54,35 +55,74 @@ nav {
 }
 
 /*buttoni*/
+
 .buttonHouses{
     padding-left: 62px !important; 
 }
 
-.btn{
-    border-radius: 29% !important;
-    height: 37px !important;
+.buttonMain{
+    display: flex;
+    margin-left: 70px;
+    gap: 10px;
    
-    margin-left: 5px;
+}
+
+.buttonNuovo{
+    height: 30px;
+    width: 120px;
+    border: 1px solid grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 18px;
+}
+
+.buttonMain :last-child {
+    width: 100px;
+}
+
+#firstButton{
+    margin-left: 80px;
+}
+.btn{
+    border-radius: 15% !important;
+    height: 37px !important;
+    border: 2px solid black;
     font-size: small;
 }
 #lastButton{
     margin-left: 10px !important;
-    width: 50px !important;
+    width: 70px !important;
 }
 
 /*span dopo i buttoni*/
 
 .enterDt, .covid{
     margin-top: 60px;
-    padding-left: 70px;
+    padding-left: 80px;
 }
 
-/*carrousel*/
+.covid{
+    margin-bottom: 10px;
+}
 
-.carousel-item.active {
-    
-    margin-top: 10px;
-    width: 120vw;
-    padding-left: 70px !important;
-    
-  }
+/*appartment images*/
+
+
+.col img{
+   height: 180px;
+   width: 230px;
+   border-radius: 5%;
+}
+
+.strisco{
+    color: red; /* da cambiare */
+    font-weight: 900;
+}
+.numeri{
+    font-weight: bold;
+}
+.sottoFoto{
+    font-size: small;
+    margin-bottom: .1rem;
+}
