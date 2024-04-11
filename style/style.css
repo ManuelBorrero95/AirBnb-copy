@@ -11,23 +11,24 @@
 
 nav {
     height: 4.375rem;
-    padding: 0.938rem 4.688rem;   
+    padding: 0.938rem 4.688rem;
 }
+
 .cnt {
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 
-.logo img{
+.logo img {
     width: 6.25rem;
 }
 
-.userHost{
+.userHost {
     padding: 1.25rem;
-     margin: 0.313rem;
-     display: flex;
-     align-items: center;    
+    margin: 0.313rem;
+    display: flex;
+    align-items: center;
 }
 
 /*Main*/
@@ -38,16 +39,20 @@ nav {
 }
 
 
-.titoloEsign{
+.titoloEsign {
     display: flex;
     align-items: center;
-    gap: 0.25rem; 
+    gap: 0.25rem;
     margin-left: 5rem;
 }
 
-.cirlceRosa{
+h2 {
+    line-height: 2.2;
+}
+
+.cirlceRosa {
     height: 1.875rem;
-    width:1.875rem;
+    width: 1.875rem;
     background-color: palevioletred;
     border-radius: 50%;
     text-align: center;
@@ -57,18 +62,18 @@ nav {
 
 /*buttoni*/
 
-.buttonHouses{
-    padding-left: 3.875rem !important; 
+.buttonHouses {
+    padding-left: 3.875rem !important;
 }
 
-.buttonMain{
+.buttonMain {
     display: flex;
     margin-left: 4.375rem;
     gap: 0.625rem;
-   
+
 }
 
-.buttonNuovo{
+.buttonNuovo {
     margin-top: 1.25rem;
     height: 1.875rem;
     width: 8.438rem;
@@ -83,53 +88,58 @@ nav {
     width: 6.25rem;
 }
 
-#firstButton{
+#firstButton {
     margin-left: 5rem;
 }
-.btn{
+
+.btn {
     border-radius: 15% !important;
     height: 2.313rem !important;
     border: 0.125rem solid black;
     font-size: small;
 }
-#lastButton{
+
+#lastButton {
     margin-left: 0.625rem !important;
     width: 4.375rem !important;
 }
 
 /*span dopo i buttoni*/
 
-.enterDt, .covid{
+.enterDt,
+.covid {
     margin-top: 3.75rem;
     padding-left: 5rem;
 }
 
-.covid{
+.covid {
     margin-bottom: 0.625rem;
 }
 
 /*appartment images*/
 
-
-.col img{
-   height: 11.25rem;
-   width: 14.375rem;
-   border-radius: 5%;
+.col img {
+    height: 11.25rem;
+    width: 14.375rem;
+    border-radius: 5%;
 }
 
-.strisco{
-    color: red; /* da cambiare */
+.strisco {
+    color: red;
+    /* da cambiare */
     font-weight: 900;
 }
-.numeri{
+
+.numeri {
     font-weight: bold;
 }
-.sottoFoto{
+
+.sottoFoto {
     font-size: small;
     margin-bottom: .1rem;
 }
 
-#firstContainer{
+#firstContainer {
     margin-bottom: 9rem;
 }
 
@@ -142,7 +152,7 @@ nav {
 
 .sezioni div {
     margin-left: 0.625rem;
-    }
+}
 
 .sezioni h6 {
     font-weight: bold;
@@ -164,49 +174,57 @@ footer {
     padding-left: 4.8rem;
 }
 
-a, i, img{
+h5 {
+    line-height: 2.2;
+}
+
+a, i, img {
     cursor: pointer;
 }
 
 /* Media Query */
 
-
 @media screen and (max-width: 480px) {
-  nav{
-    position: relative;
-  }
-  .img{
-    position: absolute;
-    left: 1rem;
-    top: 1rem;
-  }
-  .cnt{
-    position: absolute;
-    right: 0rem;
-  }
-  .buttonMain{
-    margin-left: 0.5rem;
-    gap: 0.1rem;
-  }
-  .enterDt{
-    margin-left: -3rem;
-  }
-  .covid{
-    margin-left: -3rem;
-  }
-  .appartments{
-    flex-direction: column;
-    margin-right: 7rem;
-   
-  
-  }
-  .row {
-    flex-direction: column;
-    align-items: center;
-    
-  }
-  .col img{
-    width: 100%;
-  }
+    nav {
+        position: relative;
+    }
 
- 
+    .img {
+        position: absolute;
+        left: 1rem;
+        top: 1rem;
+    }
+
+    .cnt {
+        position: absolute;
+        right: 0rem;
+    }
+
+    .buttonMain {
+        margin-left: 0.5rem;
+        gap: 0.1rem;
+    }
+
+    .enterDt {
+        margin-left: -3rem;
+    }
+
+    .covid {
+        margin-left: -3rem;
+    }
+
+    .appartments {
+        flex-direction: column;
+        margin-right: 7rem;
+    }
+
+    .row {
+        flex-direction: column;
+        align-items: center;
+
+    }
+
+    .col img {
+        width: 100%;
+    }
+}
