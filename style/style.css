@@ -178,6 +178,10 @@ h5 {
     line-height: 2.2;
 }
 
+.icn-social {
+    margin-left: 50rem;
+    font-size: 1.1rem;
+}
 a, i, img {
     cursor: pointer;
 }
