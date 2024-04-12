@@ -14,7 +14,7 @@
     padding: 10px;
 }
 
-.margine-nav {
+.cst-margin{
     margin: 16px;
 }
 
@@ -149,6 +149,7 @@
     background-color: #ff385c;
 }
 
+
 .d-flex.flex-column.w-75 input{
     height: 38px;
     border: 1px solid #00000020;
@@ -206,7 +207,7 @@ a, i, img {
 /* Media Queries */
 
 @media screen and (max-width:1200px) {
-    .description-main {
+    .cnt-main {
         display: flex;
         flex-wrap: wrap;
         flex-direction: column;
@@ -215,27 +216,24 @@ a, i, img {
     }
 }
 
-@media screen and (max-width:426px) {
-    .margine-nav {
-        margin: 16px 0;
-    }
 
-    #profilebutton {
-        padding: 0;
-    }
 
-    .user-section {
-        gap: 10px;
-    }
-}
-
-/* tolto margine al logo */
 @media screen and (min-width:0px) and (max-width:576px) {
     .logo {
         margin-left: 0;
     }
 }
 
+
+@media screen and (max-width:426px) {
+    .cst-margin {
+        margin: 16px 0;
+    }
+
+    .cnt-user-info{
+        gap: 10px;
+    }
+}
 
 .hidden {
     display: none;
