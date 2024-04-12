@@ -28,11 +28,6 @@ nav {
     margin-left: 9.375rem;
 }
 
-.center-nav {
-    display: none;
-}
-
-
 .center-nav ul {
     display: flex;
     margin-left: 2.8125rem;
@@ -69,7 +64,7 @@ ul li {
     margin: auto;
     background-color: white;
     border-radius: 40px;
-    display: none;
+    transition: all 0.3s ease-in-out;
 }
 
 .search-icon {
@@ -290,19 +285,38 @@ a, i, img{
     }
 }
 
-@media screen and (min-width:768px) and (max-width: 1440px) {
+@media screen and (max-width: 1440px) {
     
 }
 
 .search-action {
     display: flex;
+    flex-wrap: wrap;
+    align-content: center;
     border: 1px solid white;
     border-radius: 25px;
     color: white;
-    width: 25rem;
-    height: 3rem;
-    text-align: center;
-    justify-content: center;
-    align-content: center;
+    width: 37rem;
+    height: 60px;
     margin: auto;
+    background-color: white;
+    color: black;
+    justify-content: space-between;
+    font-size: 1.25rem;
+    padding: 0 1.5rem;
+    transition: all 0.8s ease-in-out;
+}
+
+.border-right-search {
+    border-right: 1px solid grey;
+    padding-right: 1rem;
+}
+
+.scroll {
+    display: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }
