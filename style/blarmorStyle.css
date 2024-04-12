@@ -1,0 +1,290 @@
+
+@import "/style/cssUtils.css";
+/* cursor pointer generale */
+.cursore {
+    cursor: pointer;
+}
+
+
+
+/* NavBar */
+
+
+
+
+
+.logo {
+    width: 100px;
+    margin-left: 30px;
+    cursor: pointer;
+}
+
+.navbar {
+    padding: 10px;
+}
+
+.margine-nav {
+    margin: 16px;
+}
+
+/* stilizzo e animo la scritta "become a host" */
+.host {
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    
+}
+
+/* stilizzo e animo il globo */
+.bi-globe2 {
+    font-size: 18px;
+    cursor: pointer;
+    margin-right: 8px;
+    transition: 0.4s ease-in-out;
+}
+
+/* stilizzo e animo il pulsante profilo*/
+#profilebutton {
+    font-size: 25px;
+    color: rgb(105, 105, 105);
+    transition: 0.4s ease-in-out;
+    position: relative;
+}
+
+/* sposto il dropdown menu */
+.dropdown-menu[data-bs-popper] {
+    transition: 0.4s ease-in-out;
+    position: absolute;
+    border: 1px solid  rgb(105, 105, 105);
+    left: -155px;
+    width: 240px;
+}
+
+/* main */
+
+/* Icona del cuore e condividi*/
+.like {
+    background-color: #fff;
+    border: 0;
+    transition: 0.4s ease-in-out;
+}
+
+.like:first-of-type:hover {
+    border: 1px solid blue;
+    border-radius: 25px;
+    scale: 1.05;
+    color: #0000ff;
+    box-shadow: 0px 0px 5px #0000ff;
+    transition: 0.5s ease-in-out;
+}
+
+.like:last-of-type:hover {
+    border: 1px solid red;
+    border-radius: 25px;
+    scale: 1.05;
+    color: #ff0000;
+    box-shadow: 0px 0px 5px #ff0000;
+    transition: 0.5s ease-in-out;
+}
+
+.like:first-of-type {
+    transition: scale 0.5s ease-in-out;
+}
+
+.like:last-of-type {
+    transition: scale 0.5s ease-in-out;
+}
+
+
+.bordo-row {
+    min-height: 400px;
+}
+
+
+.bordo-col-piccoli {
+    height: 200px;
+    border: 5px solid white;
+}
+
+.img-main {
+    background-image: url(/assets/1.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 30px 0 0 30px;
+    border: 5px solid white;
+    height: 400px;
+}
+
+.img-sub-1 {
+    background-image: url(/assets/2.webp);
+    background-position: center;
+    background-size: cover;
+}
+
+.img-sub-2 {
+    background-image: url(/assets/3.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 30px 0 0;
+}
+
+.img-sub-3 {
+    background-image: url(/assets/4.webp);
+    background-position: center;
+    background-size: cover; 
+    border-radius: 0 0 0 0;
+}
+
+.img-sub-4 {
+    background-image: url(/assets/5.webp);
+    background-position: center;
+    background-size: cover;
+    border-radius: 0 0 30px 0;
+}
+
+/* Form a destra*/
+
+.shadow.border-black.container {
+    width: 400px;
+    height: 280px;
+}
+
+.form {
+    width: 300px;
+    height: 90px;
+    border: 1px solid #000000;
+    border-radius: 10px;
+}
+
+.input:first-child {
+    border: 0;
+    border-radius: 10px 0 0;
+    padding: 10px 0;
+}
+
+.input:nth-of-type(2) {
+    border: 0;
+    border-left: 1px solid #000000;
+    border-radius: 0px 10px 0px 0px;
+    padding: 10px 0;
+}
+
+.d-flex.w-100  input{
+    border: 0;
+    border-top: 1px solid #000000;
+    border-bottom: 1px solid #000000;
+    border-radius: 0 0 10px 10px;
+    padding: 10px 0;
+}
+
+.Date {
+    width: 125px;
+    font-size: 20px;
+}
+
+.stella {
+    color: #ff385c;
+}
+
+.bottone {
+    background-color: #ff385c;
+    color: #fff;
+}
+
+.bottone:hover {
+    background-color: #ff385c;
+}
+
+/* form in basso */
+.d-flex.flex-column.w-75 input{
+    height: 38px;
+    border: 1px solid #00000020;
+}
+
+.col-xl-8.d-flex.flex-column input:first-of-type {
+    padding-bottom: 100px;
+    border: 1px solid #00000020;
+}
+
+/* user reviews */
+
+.img-user {
+    width: 50px;
+}
+
+
+/*FOOTER*/
+
+.destination-section {
+    display: flex;
+    margin-top: 0.938rem;
+}
+
+.sezioni div {
+    margin-left: 0.625rem;
+}
+
+.sezioni h6 {
+    font-weight: bold;
+}
+
+footer {
+    background-color: white;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    font-size: 1rem;
+    border-top: 0.063rem solid rgb(212, 211, 211);
+}
+
+.footer-info {
+    margin-left: 4.4rem;
+}
+
+.copy {
+    padding-left: 4.8rem;
+}
+
+h5 {
+    line-height: 2.2;
+}
+
+a, i, img {
+    cursor: pointer;
+}
+
+/* Media Queries */
+
+@media screen and (max-width:1200px) {
+    .description-main {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        align-content: center;
+    
+    }
+}
+
+@media screen and (max-width:426px) {
+    .margine-nav {
+        margin: 16px 0;
+    }
+
+    #profilebutton {
+        padding: 0;
+    }
+
+    .user-section {
+        gap: 10px;
+    }
+}
+
+/* tolto margine al logo */
+@media screen and (min-width:0px) and (max-width:576px) {
+    .logo {
+        margin-left: 0;
+    }
+}
+
+
+.hidden {
+    display: none;
+}

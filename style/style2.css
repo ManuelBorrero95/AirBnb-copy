@@ -99,7 +99,7 @@ filter .p-2 h6 {
 .hero {
     width: 100%;
     height: 54rem;
-    background-image: url("../assest/home-2.jpg");
+    background-image: url("../assets/home-2.jpg");
     background-size: cover;
     background-position: center;
     display: flex;
